@@ -52,7 +52,7 @@
 
                    :source-paths ["src" "dev"]
                    ;; for CIDER
-                   ;; :plugins [[cider/cider-nrepl "0.12.0"]]
+                   ;; :plugins [[cider/cider-nrepl "0.22.0"]]
                    :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
                    :clean-targets ^{:protect false} ["resources/public/js/compiled"
                                                      :target-path]}})
